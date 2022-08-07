@@ -11,7 +11,7 @@
   <style>
     body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-    .fa-pencil,.fa-beer {font-size:200px}
+    .refs {font-size:small;}
   </style>
 </head>
 <body>
@@ -42,20 +42,135 @@
   <p class="w3-xlarge">Theoretical grounding behind the CIDER approach</p>
 </header>
 
-<!-- First Grid -->
+<!-- intro paragraph -->
+<div class="w3-row-padding w3-padding-64 w3-light-gray w3-container">
+  <div class="w3-content">
+    <p>Grounded in prior work from human-computer interaction (HCI), design education, and software engineering, the CIDER technique was designed to address five common challenges that computing students might face when they're learning about inclusive interface design skills.</p>
+    <p>For a more in-depth discussion of prior work, <a href="https://dl.acm.org/doi/10.1145/3549074">check out our full ACM ToCHI paper</a>.</p>
+  </div>
+</div>
+
+<!-- Motivating inclusion -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>UNDER CONSTRUCTION</h1>
-      <h5 class="w3-padding-32">This page is under construction! We hope to have educator resources here around the beginning of the 2022-23 academic year. Contact <a href="https://alannaholeson.com/">Alannah Oleson</a> with questions.</h5>
+    <div>
+      <h1>#1: Motivating inclusion</h1>
+      <h5 class="w3-padding-32">Computing students might devalue design work or believe that inclusion issues don't exist in "real-world" designs.</h5>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="w3-text-grey">Sometimes computing students think that design is just about "making things pretty" or that it is an artistic process that lacks rigor. Some also implicitly believe that inclusion issues aren't really that big a deal or that these issues will not be present in the final design of a real products. This can lead them to devalue the important role design work plays in ensuring people can effectively interact with technology. </p>
+
+      <p class="w3-text-grey">To address this challenge, the CIDER technique uses <b>existing technological artifacts</b> as a focus for activites. Critiquing a real-world product helps students to understand that no design is infallible, and that inclusion issues truly do exist in the technology they interact with every day. If students have personally interacted with the artifact chosen for a CIDER activity, this also gives them an opportunity to leverage their own experiences when reasoning about the problem, which can increase motivation and engagement.</p>
+
+      <p class="w3-text-grey refs">References:
+        <ul class="w3-text-grey refs">
+          <li>Elizabeth F. Churchill, Anne Bowser, and Jennifer Preece. 2013. Teaching and Learning Human-computer Interaction: Past, Present, and Future. Interactions. https://doi.org/10.1145/2427076.2427086</li>
+          <li>Rich Halstead-Nussloch and Han Reichgelt. 2013. Teaching HCI in a "Crowded" Computing Curriculum. J. Comput. Sci. Coll. http://dl.acm.org/citation.cfm?id=2535418.2535447</li>
+          <li>Paul Luo Li, Amy J Ko, and Andrew Begel. 2017. Cross-disciplinary perspectives on collaborations with software engineers. In Cooperative and Human Aspects of Software Engineering (CHASE), 2017 IEEE/ACM 10th International Workshop. https://doi.org/10.1109/CHASE.2017.3</li>
+          <li>Alannah Oleson, Christopher Mendez, Zoe Steine-Hanson, Claudia Hilderbrand, Christopher Perdriau, Margaret Burnett, and Amy J. Ko. 2018. Pedagogical Content Knowledge for Teaching Inclusive Design. In Proceedings of the 2018 ACM Conference on International Computing Education Research (ICER ’18). https://doi.org/10.1145/3230977.3230998</li>
+          <li>Alannah Oleson, Meron Solomon, and Amy J. Ko. 2020. Computing Students’ Learning Difficulties in HCI Education. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI ’20). https://doi.org/10.1145/3313831.3376149</li>
+        </ul>
+      </p>
+
     </div>
 
-    <div class="w3-third w3-center">
-      <i class="fa fa-pencil w3-padding-64 w3-text-red"></i>
+  </div>
+</div>
+
+<!-- Connecting features to assumptions -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div>
+      <h1>#2: Connecting interface features to assumptions</h1>
+      <h5 class="w3-padding-32">Students might not recognize the role designers' <i>assumptions about users</i> play in shaping an interface, especially if they don't have much design experience.</h5>
+
+      <p class="w3-text-grey">Even the most well-informed designers can't know everything about how their design will be used and who it will be used by. To fill in these gaps, they have to rely on assumptions. Unless particular traits or characteristics about users are specified, technology designers tend to fall back on designing for users of socially dominant or majority races, genders, ages, cultures, and/or classes -- even if the designer themself is from a historically marginalized group. Basing a design on erroneous assumptions about users can lead to bias, disproportionately excluding minoritized groups from interacting with the technology.</p>
+
+      <p class="w3-text-grey">Assumptions about users are the key focus of the CIDER technique's scaffolded critique activities. The <i>CRITIQUE</i> stage of CIDER explicitly frames design shortfalls as the result of assumptions, using language like <i>bias</i>, <i>inclusion</i> , and <i>exclusion</i> to help dispel notions of objectivity in design that novice designers might hold. By emphasizing the sujectivity inherent in design deicisions and highlighting how assumptions might influence design, CIDER can help students become more aware of their responsiblity to consider different kinds of user diversity when making interfaces.</p>
+
+      <p class="w3-text-grey refs">References:
+        <ul class="w3-text-grey refs">
+          <li>Ruha Benjamin. 2019. Race After Technology: Abolitionist tools for the new Jim code. Social Forces (2019).</li>
+          <li>Sarah Cooney. 2021. Riding the Bus in Los Angeles: Creating Cultural Micro-Exposures via Technology. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems. https://doi.org/10.1145/3411763.3450392</li>
+          <li>Sasha Costanza-Chock. 2020. Design Justice: Community-led practices to build the worlds we need. MIT Press.</li>
+          <li>Batya Friedman and Helen Nissenbaum. 1996. Bias in computer systems. ACM Transactions on Information Systems. https://doi.org/10.1145/230538.230561</li>
+          <li>Cynthia Putnam, Maria Dahman, Emma Rose, Jinghui Cheng, and Glenn Bradford. 2015. Teaching Accessibility, Learning Empathy. In Proceedings of ASSETS 2015. https://doi.org/10.1145/2700648.2811365</li>
+          <li>Martin A. Siegel and Erik Stolterman. 2008. Metamorphosis: Transforming Non-Designers into Designers.</li>
+          <li>Lauren Wilcox, Betsy DiSalvo, Dick Henneman, and Qiaosi Wang. 2019. Design in the HCI Classroom: Setting a Research Agenda. In Proceedings of the 2019 Designing Interactive Systems Conference (DIS ’19). https://doi.org/10.1145/3322276.3322381</li>
+        </ul>
+      </p>
+
+    </div>
+  </div>
+</div>
+
+<!-- Designing for diversity -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div>
+      <h1>#3: Resisting the "average user" fallacy</h1>
+      <h5 class="w3-padding-32"> Students might try to design for an "average" or "typical" user, overlooking the needs of users from smaller or otherwise minoritized groups.</h5>
+
+      <p class="w3-text-grey"><i>More explanation coming soon!</i></p>
+
+      <!--p class="w3-text-grey">solution</p-->
+
+      <p class="w3-text-grey refs">References:
+        <ul class="w3-text-grey refs">
+          <li>Farshid Anvari, Deborah Richards, Michael Hitchens, and Hien Minh Thi Tran. 2019. Teaching user centered conceptual design using cross-cultural personas and peer reviews for a large cohort of students. In Proceedings of ICSE-SEET 2019. https://doi.org/10.1109/ICSE-SEET.2019.00015</li>
+          <li>Sasha Costanza-Chock. 2020. Design Justice: Community-led practices to build the worlds we need. MIT Press.</li>
+          <li>Sarah Lewthwaite and David Sloan. 2016. Exploring Pedagogical Culture for Accessibility Education in Computing Science. In Proceedings of the 13th Web for All Conference (W4A ’16). https://doi.org/10.1145/2899475.2899490</li>
+          <li>Maria Adriana Neroni and Nathan Crilly. 2019. Whose ideas are most ixating, your own or other people’s? The efect of idea agency on subsequent design behaviour. Design Studies 60 (Jan. 2019). https://doi.org/10.1016/j.destud.2018.05.004</li>
+          <li>Martin A. Siegel and Erik Stolterman. 2008. Metamorphosis: Transforming Non-Designers into Designers.</li>
+          <li>Simone Stumpf, Anicia Peters, Shaowen Bardzell, Margaret Burnett, Daniela Busse, Jessica Cauchard, and Elizabeth Churchill. 2020. Gender-Inclusive HCI Research and Design: A Conceptual Review. Foundations and Trends in Human-Computer Interaction. https://doi.org/10.1561/1100000056</li>
+        </ul>
+      </p>
+
+    </div>
+  </div>
+</div>
+
+<!-- Acting on inclusion goals -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div>
+      <h1>#4: Acting on inclusion goals</h1>
+      <h5 class="w3-padding-32">Students might abstractly appreciate the need for inclusion, but struggle to take concrete  actions that lead to actually inclusive designs.</h5>
+
+      <p class="w3-text-grey"><i>More explanation coming soon!</i></p>
+
+      <!--p class="w3-text-grey">solution</p-->
+
+      <p class="w3-text-grey refs">References:
+        <ul class="w3-text-grey refs">
+          <li>Shruthi Sai Chivukula, Aiza Hasib, Ziqing Li, Jingle Chen, and Colin M. Gray. 2021. Identity Claims That Underlie Ethical Awareness and Action. https://doi.org/10.1145/3411764.3445375</li>
+          <li>Colin M Gray, Austin L. Toombs, and Shad Gross. 2015. Flow of competence in UX design practice. https://doi.org/10.1145/2702123.2702579</li>
+          <li>Alannah Oleson, Christopher Mendez, Zoe Steine-Hanson, Claudia Hilderbrand, Christopher Perdriau, Margaret Burnett, and Amy J. Ko. 2018. Pedagogical Content Knowledge for Teaching Inclusive Design. https://doi.org/10.1145/3230977.3230998</li>
+          <li>Alannah Oleson, Meron Solomon, and Amy J. Ko. 2020. Computing Students’ Learning Difficulties in HCI Education. https://doi.org/10.1145/3313831.3376149</li>
+          <li>Lauren Wilcox, Betsy DiSalvo, Dick Henneman, and Qiaosi Wang. 2019. Design in the HCI Classroom: Setting a Research Agenda. https://doi.org/10.1145/3322276.3322381</li>
+        </ul>
+      </p>
+
+    </div>
+  </div>
+</div>
+
+<!-- Avoiding stereotyping -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div>
+      <h1>#5: Avoiding stereotyping</h1>
+      <h5 class="w3-padding-32">Students may find it difficult to understand the needs of users unlike themselves without resorting to stereotyping of identity groups.</h5>
+
+      <p class="w3-text-grey"><i>More explanation coming soon!</i></p>
+
+      <!--p class="w3-text-grey">solution</p-->
+
+      <p class="w3-text-grey refs">References:
+        <ul class="w3-text-grey refs">
+          <li>Cynthia Putnam, Maria Dahman, Emma Rose, Jinghui Cheng, and Glenn Bradford. 2015. Teaching Accessibility, Learning Empathy. In Proceedings of ASSETS 2015. https://doi.org/10.1145/2700648.2811365</li>
+        </ul>
+      </p>
+
     </div>
   </div>
 </div>
